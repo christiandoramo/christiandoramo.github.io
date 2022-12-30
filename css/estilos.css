@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(56, 49, 49);
+    text-decoration-color: rgb(255, 0, 0);
+    color: #fff;
+    font-family: Consolas;
+    text-align: center;
+}
+.listinha{
+    text-decoration-color: red;
+    color: #4ba;
+    text-decoration-style: solid;
+    text-align: left;
+}
