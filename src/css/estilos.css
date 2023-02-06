@@ -1,0 +1,52 @@
+body {
+  background-color: aquamarine;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 1.6rem;
+}
+.listinha {
+  text-decoration-style: solid;
+  text-align: center;
+  font-size: 1.6rem;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2.25rem;
+}
+h3 {
+  font-size: 1.75rem;
+}
+a {
+  text-decoration-style: none;
+  font-size: 1.6rem;
+}
+.projetos a {
+  text-decoration-style: none;
+  font-size: 1.6rem;
+  padding: 10px 10px;
+}
+
+.projetos li {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  background-color: aqua;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1.6rem;
+  font-weight: lighter;
+  transition: 0.3s;
+}
+.projetos li a {
+  text-decoration: none;
+}
+.projetos li:hover {
+  
+  font-weight: bold;
+  background-color: red;
+  padding: 15px 25px;
+  font-size: 2rem;
+}

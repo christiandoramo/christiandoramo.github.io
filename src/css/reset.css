@@ -1,0 +1,9 @@
+*,
+* :hover,
+*::after {
+  text-decoration-style: none;
+  color: black;
+}
+* {
+  font-size: 62.5%;
+}
