@@ -1,0 +1,53 @@
+/* Projetos.css */
+.projetos {
+    padding: 4rem 0;
+    background-color: #ffffff;
+  }
+  
+  /* Reutilize o mesmo estilo de carrossel da seção de experiência */
+  /* Experiencia.css */
+  .carrossel {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    padding: 2rem 0;
+  }
+  
+  .carrossel::before,
+  .carrossel::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    z-index: 2;
+    background: linear-gradient(to right, rgba(240, 240, 240, 1), rgba(240, 240, 240, 0));
+  }
+  
+  .carrossel::before {
+    left: 0;
+  }
+  
+  .carrossel::after {
+    right: 0;
+    background: linear-gradient(to left, rgba(240, 240, 240, 1), rgba(240, 240, 240, 0));
+  }
+  
+  .carrossel-content {
+    display: flex;
+    animation: scroll 20s linear infinite;
+  }
+  
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+  
+  .card {
+    flex: 0 0 300px;
+    margin: 0 1rem;
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
