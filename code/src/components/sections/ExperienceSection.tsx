@@ -122,7 +122,7 @@ function ExperienceCard({ exp }: { exp: (typeof experiences)[0] }) {
           <img
             src={companyImg}
             alt={exp.company}
-            className="w-full h-full object-cover object-center"
+            className="w-full h-full object-contain object-center p-3 md:p-4"
           />
         ) : (
           <div className="flex flex-col items-center gap-2 text-muted-foreground/40">
