@@ -101,7 +101,7 @@ const translations: Record<Language, Record<string, string>> = {
     "experience.placeholder": "Logo da empresa",
 
     "exp.sigpar.role": "Desenvolvedor Web — Estágio",
-    "exp.sigpar.period": "Mai/2025 — presente",
+    "exp.sigpar.period": "Mai/2025 — Jan/2025",
     "exp.sigpar.desc1":
       "Desenvolvimento do SIGPar, sistema de gestão de contratos e parcerias da UFRPE, com autenticação, geração de PDF e ferramentas de mensageria.",
     "exp.sigpar.desc2":
@@ -255,7 +255,7 @@ const translations: Record<Language, Record<string, string>> = {
     "experience.placeholder": "Company logo",
 
     "exp.sigpar.role": "Web Developer — Internship",
-    "exp.sigpar.period": "May/2025 — present",
+    "exp.sigpar.period": "May/2025 — Jan/2025",
     "exp.sigpar.desc1":
       "Development of SIGPar, UFRPE's contract and partnership management system, with authentication, PDF generation, and messaging tools.",
     "exp.sigpar.desc2":
